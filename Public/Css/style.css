@@ -1,0 +1,64 @@
+/* formateo */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+}
+
+/* cabecera */
+header{
+    /* border: 1px solid red; */
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    box-shadow: 3px 3px 3px solid black;
+}
+
+/* mas codigo */
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+li{
+    /* border: 1px solid white; */
+    padding-right: 20px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+li:hover{
+    background: #f6d365;
+    color:aliceblue;
+    cursor: pointer;
+}
+/* main */
+main{
+    padding: 20px;
+    height: 80vh;
+    background-image: linear-gradient(120deg, #f2c224 0%, #ef7655 100%);
+}
+
+.text{
+    padding: 20px;
+    background: red;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn{
+    padding: 10px;
+    margin: 3px;
+}
+/* footer */
+footer{
+    background: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.active{
+    background: blue;
+    color: white;
+    border-radius: 50px;
+    padding: 30px;
+    transition: all 0.3s ease-in-out;
+}
